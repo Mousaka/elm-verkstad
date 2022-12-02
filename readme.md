@@ -1,6 +1,6 @@
 # Instructions
 
-1. Download the zip-file matching your operating system.
+1. Download the zip-file matching your operating system. [Windows-zip](https://github.com/Mousaka/elm-verkstad/raw/main/elm-workshop-windows.zip) or [Mac-zip](https://github.com/Mousaka/elm-verkstad/raw/main/elm-workshop-macos.zip)
 2. Unzip them somewhere on your computer. This will be the project folder for the workshop.
 3. Install Visual Studio Code (also called VScode) in Microsoft App store if you are on Windows, if you are on a Mac you can install from [here](https://code.visualstudio.com/download).
 4. Open VScode and open the folder you unzipped previously.
