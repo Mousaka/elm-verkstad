@@ -31,3 +31,23 @@ After the first time you save a file a new popup will say that `elm-format` is n
 8. Open the Terminal in VScode from the menu `View -> Terminal`
 9. Start developer environment by entering `./start` in the terminal.
 10. ⌘-click on the link displayed in the terminal. This should open a page in your browswer. Press on `src` then on `Main.elm`. You should now see the text "Hello world!". If you do, you are done with the setup!
+
+## Commands
+
+Thes commands can be run in the Visual Studio Code terminal when you have opened the unzipped folder in the editor.
+
+### Starting the REPL
+
+Write this in your terminal to start Elm's REPL
+
+```
+./repl
+```
+
+### Starting your local elm server
+
+This command starts Elm's local development server. "local" in this context means "runs on your computer".
+
+```
+./start
+```
