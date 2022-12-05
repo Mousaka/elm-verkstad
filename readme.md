@@ -1,6 +1,12 @@
 # Instructions
 
-### Windows
+Follow these instructions to install the programs necessary for the code workshop. You will install the following programs:
+
+- Elm compiler - the program that inteprets your code and translates it to a runnable program in your web browser.
+- Elm format - A program that helps tidy up the code you write in terms of removing unecessary tabs and spaces and such.
+- Visual Studio Code (VScode) - The code editor we will be using to type our code in. This is like Word with spellchecking, but for code.
+
+### On Windows
 
 1. Download the zip-file: [Windows-zip](https://github.com/Mousaka/elm-verkstad/raw/main/elm-workshop-windows.zip)
 2. Unzip them somewhere on your computer. This will be the project folder for the workshop.
