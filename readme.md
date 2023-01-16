@@ -36,6 +36,12 @@ Write this in your terminal to start Elm's REPL
 elm repl
 ```
 
+and to exit enter
+
+```
+:exit
+```
+
 ### Starting your local elm server
 
 This command starts Elm's local development server. "local" in this context means "runs on your computer".
