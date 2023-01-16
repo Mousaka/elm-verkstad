@@ -49,3 +49,5 @@ This command starts Elm's local development server. "local" in this context mean
 ```
 elm reactor
 ```
+
+This command will exit when you exit VScode.
