@@ -8,8 +8,8 @@ Follow these instructions to install the programs necessary for the code worksho
 - Visual Studio Code (VScode) - The code editor we will be using to type our code in. This is like Word with spellchecking, but for code.
 
 1. Install [NodeJs](https://nodejs.org/en/) by downloading the installer and running it. If install options are shown in the installer, uncheck all extra features.
-1. Download the project zip-file: [zip](https://github.com/Mousaka/elm-verkstad/archive/refs/heads/main.zip)
-1. Unzip them somewhere on your computer. This will be the project folder for the workshop. This folder contains some configuration for VScode, and a code template.
+1. Download the project [zip-file](https://github.com/Mousaka/elm-verkstad/archive/refs/heads/main.zip).
+1. Unzip it somewhere on your computer. This will be the project folder for the workshop. This folder contains some configuration for VScode, and a code template.
 1. Install Visual Studio Code (also called VScode) in Microsoft App store if you are on Windows. If you are on Mac install from their webpage [here](https://code.visualstudio.com/download).
 1. When asked if you want to install the Elm extension for VScode press yes.
 1. Open VScode and open the folder you unzipped previously from VScode `File -> Open` then select the folder.
