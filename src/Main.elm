@@ -1,10 +1,14 @@
 module Main exposing (main)
 
 import Browser
-import Html exposing (Html)
+import Html exposing (Html, text)
 
 
-init : String
+type alias Model =
+    String
+
+
+init : Model
 init =
     ""
 
@@ -13,19 +17,19 @@ type Msg
     = ButtonPressed
 
 
-update : Msg -> String -> String
+update : Msg -> Model -> Model
 update msg model =
     case msg of
         ButtonPressed ->
             model
 
 
-view : String -> Html Msg
+view : Model -> Html Msg
 view model =
-    Html.text "Hello world!"
+    text "Hello world!"
 
 
-main : Program () String Msg
+main : Program () Model Msg
 main =
     Browser.sandbox
         { init = init
