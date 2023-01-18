@@ -1,12 +1,12 @@
 module Main exposing (main)
 
 import Browser
-import Element exposing (Element)
+import Html exposing (Html)
 
 
-initialModel : String
-initialModel =
-    "Hello world!"
+init : String
+init =
+    ""
 
 
 type Msg
@@ -20,17 +20,15 @@ update msg model =
             model
 
 
-view : String -> Element Msg
+view : String -> Html Msg
 view model =
-    Element.column []
-        [ Element.text model
-        ]
+    Html.text "Hello world!"
 
 
 main : Program () String Msg
 main =
     Browser.sandbox
-        { init = initialModel
-        , view = view >> Element.layout []
+        { init = init
+        , view = view
         , update = update
         }
